@@ -26,6 +26,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
 .body__home {
     width: 100vw;
     height: 100vh;
@@ -67,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin: 20px 0;
 }
 
 .header__logo {
@@ -77,6 +85,11 @@ h1, h2, h3, h4, h5, h6 {
 .header__nav__right {
     color: white;
     border-bottom: 1px solid white;
+}
+
+.header__nav__link {
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 /* --------------- HEADER --------------- */
@@ -101,4 +114,37 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22px;
     border-radius: 2px;
     color: black;
+}
+
+/* --------------- MAIN BLOG --------------- */
+.main__blog {
+    width: 90%;
+    margin: auto;
+}
+
+.main__blog__container {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    column-gap: 35px;
+}
+
+.main__blog__content {
+    margin-top: 40px;
+}
+
+.main__blog__title {
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+.main__blog__text {
+    line-height: 24px;
+    margin: 25px 0 42px 0;
+}
+
+.blog__reed__more {
+    border: 1.4px solid var(--color-green);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 3px;
 }
