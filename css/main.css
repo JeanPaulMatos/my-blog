@@ -1,7 +1,6 @@
 :root {
     --color-green: #47cfac;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 /* --------------- DEFAULT VALUES --------------- */
 body {
@@ -27,6 +26,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.body__home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/img/Cover.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* --------------- HEADER --------------- */
 .social {
     background: var(--color-green);
@@ -34,14 +42,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social__container {
-    width: 88%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: flex-end;
 }
 
 .social__icons {
-    margin-right: 30px;
+    margin-right: 32px;
     font-size: 25px;
     color: white;
 }
@@ -49,4 +57,48 @@ h1, h2, h3, h4, h5, h6 {
 .social__link span:last-child {
     margin-right: 0;
 }
- 
+
+.header__home {
+    width: 90%;
+    margin: auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header__logo {
+    width: 220px;
+}
+
+.header__nav__right {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/* --------------- HEADER --------------- */
+.main__home {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.home__title {
+    font-size: 58px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 10% 19% 3%;
+}
+
+.home__link {
+    background-color: var(--color-green);
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 2px;
+    color: black;
+}
