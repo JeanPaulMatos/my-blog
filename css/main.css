@@ -1,5 +1,6 @@
 :root {
     --color-green: #47cfac;
+    --color-footer: #23282d;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 /* --------------- DEFAULT VALUES --------------- */
@@ -92,7 +93,7 @@ img {
     border-bottom: 1px solid black;
 }
 
-/* --------------- HEADER --------------- */
+/* --------------- MAIN HOME --------------- */
 .main__home {
     text-align: center;
     width: 90%;
@@ -147,4 +148,55 @@ img {
     color: black;
     padding: 10px 15px;
     border-radius: 3px;
+}
+
+/* --------------- BLOG NEWS --------------- */
+.blog__news {
+    width: 90%;
+    margin: auto;
+}
+
+.blog__news__title {
+    font-size: 28px;
+    text-align: center;
+    margin: 35px 0;
+}
+
+.lastpost__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
+}
+
+.lastpost__title {
+    font-size: 22px;
+    margin-top: 18px;
+    letter-spacing: 0.2px;
+}
+
+.lastpost__text {
+    line-height: 22px;
+    margin: 12px 0 28px 0;
+}
+
+.lastpost__link {
+    border: 1.4px solid var(--color-green);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+/* --------------- FOOTER --------------- */
+.footer {
+    background-color: var(--color-footer);
+    margin-top: 60px;
+}
+
+.footer__text {
+    text-align: center;
+    color: white;
+    padding: 22px 0;
+    margin-bottom: 0;
+    letter-spacing: 0.8px;
+    border-top: 32px solid var(--color-green);
 }
