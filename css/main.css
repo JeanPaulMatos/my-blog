@@ -235,7 +235,7 @@ img {
 
 /* --------------- CONTACT FORM --------------- */
 .form__contact {
-    background-color: var(--footer-color);
+    background-color: var(--line-color);
     padding: 20px 0;
     margin: 30px 0 -60px 0;
 }
@@ -251,6 +251,7 @@ img {
 .contact__right {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .contact__img {
@@ -266,4 +267,73 @@ img {
 .contact__title {
     font-size: 22px;
     text-decoration: underline;
+}
+
+.form__profile {
+    margin-top: 65px;
+}
+
+/* --------------- PROFILE PAGE --------------- */
+.main__profile {
+    background-color: var(--line-color);
+    padding: 55px 0;
+    margin-top: 35px;
+}
+
+.main__profile__container {
+    width: 87%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.profile__img {
+    vertical-align: middle;
+}
+
+.profile__content {
+    margin-left: 45px;
+}
+
+.profile__title {
+    font-size: 48px;
+    letter-spacing: 0.5px;
+}
+
+.profile__text {
+    line-height: 25px;
+    margin: 6px 0;
+}
+
+/* --------------- PROFILE PORTFOLIO --------------- */
+.portfolio {
+    width: 87%;
+    margin: auto;
+}
+
+.project__title {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 0.8px;
+    margin: 55px 0 40px 0;
+    border-bottom: 2px solid var(--line-color);
+    padding-bottom: 12px;
+}
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px;
+}
+
+.portfolio__title {
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    margin-bottom: 12px;
+}
+
+.portfolio__text {
+    line-height: 22px;
+    margin-bottom: 25px;
 }
