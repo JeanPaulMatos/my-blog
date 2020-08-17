@@ -1,0 +1,300 @@
+@media screen and (max-width:1024px) {
+    .home__title {
+        font-size: 42px;
+        margin: 10% 14% 3%;
+    }
+    .home__link {
+        font-size: 18px;
+    }
+    .main__blog__content {
+        margin-top: 0;
+    }
+    .lastpost__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main__profile__container {
+        grid-template-columns: 1fr;
+    }
+    .profile__content {
+        margin: 0;
+    }
+    .profile__title {
+        text-align: center;
+        margin: 30px 0 20px 0;
+    }
+    .profile__text {
+        line-height: 30px;
+    }
+    .portfolio__container {
+        gap: 45px 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .home__title {
+        font-size: 40px;
+        margin: 10% 5% 3%;
+    }
+    .home__link {
+        padding: 10px 22px;
+    }
+    .social__icons {
+        font-size: 26px;
+        margin-right: 30px;
+    }
+    .main__blog__content {
+        display: contents;
+        text-align: center;
+    }
+    .main__blog__container {
+        grid-template-columns: 1fr;
+    }
+    .main__blog__title {
+        font-size: 42px;
+        text-align: center;
+        margin-top: 18px;
+    }
+    .lastpost__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main__blogpost {
+        width: 60%;
+    }
+    .main__title {
+        font-size: 36px;
+    }
+    .contact__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact__content {
+        margin: 5px 0 0 15px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home__title {
+        font-size: 32px;
+        margin: 10% 0% 4%;
+    }
+    .home__link {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .social__icons {
+        font-size: 24px;
+        margin-right: 22px;
+    }
+    .main__blog__title {
+        font-size: 36px;
+    }
+    .lastpost__container {
+        grid-template-columns: 1fr;
+    }
+    .lastpost__container__content {
+        display: grid;
+        text-align: center;
+    }
+    .lastpost__title {
+        text-align: center;
+    }
+    .lastpost__text {
+        text-align: center;
+        line-height: 24px;
+    }
+    .footer__text {
+        font-size: 14px;
+    }
+    .main__title {
+        font-size: 30px;
+    }
+    .contact__container {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        width: 80%;
+    }
+    .contact__content {
+        margin: 12px 0 0 15px;
+    }
+    .profile__title {
+        font-size: 38px;
+    }
+    .portfolio__wrapper {
+        display: grid;
+    }
+    .portfolio__text {
+        margin: 22px 0;
+        text-align: center;
+    }
+    .lastpost__link {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .home__title {
+        font-size: 28px;
+        margin: 10% 0% 3%;
+    }
+    .home__link {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+    .social {
+        padding: 9px 0;
+    }
+    .social__icons {
+        font-size: 22px;
+        margin-right: 22px;
+    }
+    .main__blog__title {
+        font-size: 32px;
+    }
+    .main__blog__text {
+        font-size: 15px;
+        margin: 18px 0 20px 0;
+    }
+    .blog__reed__more {
+        font-size: 15px;
+    }
+    .lastpost__title {
+        margin-top: 22px;
+        font-size: 24px;
+    }
+    .lastpost__text {
+        line-height: 24px;
+        font-size: 15px;
+        margin: 12px 0 18px 0;
+    }
+    .lastpost__link {
+        font-size: 15px;
+    }
+    .footer__text {
+        font-size: 14px;
+    }
+    .main__subtitle {
+        font-size: 18px;
+    }
+    .main__title {
+        font-size: 26px;
+    }
+    .main__text {
+        font-size: 15px;
+    }
+    .main__blogpost {
+        width: 70%;
+    }
+    .contact__container {
+        width: 80%;
+    }
+    .contact__title {
+        font-size: 18px;
+    }
+    .contact__text {
+        font-size: 15px;
+    }
+    .contact__content {
+        margin: 12px 0 0 15px;
+    }
+    .profile__title {
+        font-size: 36px;
+    }
+    .profile__text {
+        font-size: 15px;
+    }
+    .project__title {
+        font-size: 28px;
+    }
+    .portfolio__title {
+        font-size: 20px;
+    }
+    .portfolio__text {
+        font-size: 15px;
+    }
+    .lastpost__link {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .home__title {
+        font-size: 24px;
+        margin: 10% 0% 4%;
+    }
+    .home__link {
+        font-size: 14px;
+        padding: 7px 16px;
+    }
+    .header__logo {
+        width: 200px;
+    }
+    .header__nav__right {
+        font-size: 15px;
+    }
+    .social {
+        padding: 8px 0;
+    }
+    .social__icons {
+        font-size: 18px;
+        margin-right: 22px;
+    }
+    .main__blog__title {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    .main__blog__text {
+        font-size: 14px;
+    }
+    .blog__reed__more {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .lastpost__title {
+        font-size: 22px;
+    }
+    .lastpost__text {
+        font-size: 14px;
+    }
+    .lastpost__link {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .footer__text {
+        font-size: 12px;
+    }
+    .main__title {
+        font-size: 24px;
+    }
+    .main__subtitle {
+        font-size: 17px;
+    }
+    .main__text {
+        font-size: 14px;
+    }
+    .contact__content {
+        margin: 8px 0 0 15px;
+    }
+    .contact__title {
+        font-size: 16px;
+    }
+    .contact__text {
+        font-size: 14px;
+    }
+    .profile__title {
+        font-size: 32px;
+    }
+    .profile__text {
+        font-size: 14px;
+    }
+    .project__title {
+        font-size: 26px;
+    }
+    .portfolio__title {
+        font-size: 18px;
+    }
+    .portfolio__text {
+        font-size: 14px;
+    }
+    .lastpost__link {
+        font-size: 14px;
+    }
+}
