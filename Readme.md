@@ -14,3 +14,7 @@ This is a blog that I did in the Practical Course of CSS Grid of Platzi
 * Media Queries
 * Variables CSS
 * BEM
+
+## Project Link
+
+[https://www.my-blog.com](https://jeanpaulmatos.github.io/my-blog/ "My Blog")
